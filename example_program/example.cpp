@@ -11,13 +11,14 @@
 
 using namespace rubik_cube;
 
-std::random_device rd;
-std::mt19937 mt(rd());
+std::uniform_int_distribution<unsigned> dist1{0, 5};
+std::uniform_int_distribution<unsigned> dist2{1, 3};
+std::default_random_engine e((unsigned int)time(nullptr));
 
 move_step_t get_random_step(){
-    srand((unsigned int)time(nullptr));
-    int face = mt()%6;
-    int count = mt()%3+1;
+    // e.seed((unsigned int)time(NULL));
+    int face = dist1(e);
+    int count = dist2(e);
     return {(face_t)face, count};
 }
 
