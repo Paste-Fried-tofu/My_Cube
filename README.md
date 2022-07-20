@@ -34,9 +34,9 @@ $ ./example
 ### Sorry, i'm not good at English.
 This is a program which is used for solving rubik's cube,  and writen by C++. But here doesn't have a GUI. However, I borrowed from a nice project:https://github.com/miskcoo/rubik-cube.
 You can get a course from there: 
-https://blog.csdn.net/weixin_46645613/article/details/117479516
-https://blog.csdn.net/weixin_46645613/article/details/119207969
-https://blog.csdn.net/weixin_46645613/article/details/119208081
+#### https://blog.csdn.net/weixin_46645613/article/details/117479516
+#### https://blog.csdn.net/weixin_46645613/article/details/119207969
+#### https://blog.csdn.net/weixin_46645613/article/details/119208081
 
 ## **Requirement**
 - C++
