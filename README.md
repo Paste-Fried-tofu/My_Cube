@@ -9,18 +9,26 @@
 - C++
 
 ## **Makefile文件用法**
+-Linux
 
 ```
 $ cd path/cube
 $ make
 ```
-
+-Windows(需要事先安装MinGW)
+```
+cd path/cube
+mingw32-make
+```
 ## **程序使用方法**
 - Linux下你可以直接make之后运行example
 ```
 $ ./example
 ```
-- Windows下则需要你手动编译.
+- Windows下同理.
+```
+example.exe
+```
 - example程序默认生成随机打乱, 然后还原, 如果你要指定打乱方式, 请在文件"***example_program/example.cpp***"中修改程序, 或者自己写程序实现. 同时也得修改输入文件, 你的输入文件格式为:
 ```
 "一次操作"+"空格"+"一次操作"+......
@@ -50,7 +58,10 @@ $ make
 ```
 $ ./example
 ```
-- If your os is Windows, please manually compile the project.
+- The same as Windows(be sure your compurter has installed the MinGW)
+```
+example.exe
+```
 - The example program will default disarrange the rubick's cube by random operations , so if you want to specify a series of operations, plese modify the source code in "***example_program/example.cpp***", or write a new program to realize it by yourself. Meanwhile, you should modify the input file, and the style of the file is like this:
 ```
 "operation"+"space"+"operation"+......
