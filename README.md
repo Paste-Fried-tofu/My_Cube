@@ -63,7 +63,7 @@ $ make
 ```
 $ ./example
 ```
-- The same as Windows(be sure your compurter has installed the MinGW, because this program is based on gcc, The compiler of MSV may send errors)
+- The same as Windows(be sure your compurter has installed the MinGW, because this program is based on gcc, the compiler of MSV may send errors)
 ```
 example.exe
 ```
