@@ -18,7 +18,7 @@
 $ cd path/cube
 $ make
 ```
--Windows(需要事先安装MinGW)
+-Windows(需要事先安装MinGW, 因为该程序是基于gcc编写的, MSV的编译器可能会报一堆错)
 ```
 cd path/cube
 mingw32-make
@@ -63,7 +63,7 @@ $ make
 ```
 $ ./example
 ```
-- The same as Windows(be sure your compurter has installed the MinGW)
+- The same as Windows(be sure your compurter has installed the MinGW, because this program is based on gcc, The compiler of MSV may send errors)
 ```
 example.exe
 ```
