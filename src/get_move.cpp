@@ -37,9 +37,12 @@ namespace rubik_cube{
     }
 
     void standardization(move_vct& moves){
-        for(auto& x:moves){
-            x.second = (x.second%4+4)&3;
+        void standardization(move_vct& moves){
+        for(size_t i=0; i<moves.size(); i++){
+            if(moves[i].second == 0)moves.erase(moves.begin()+i);
+            moves[i].second = (moves[i].second % 4 + 4)&3;
         }
+    }
     }
 
 
