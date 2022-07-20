@@ -1,9 +1,9 @@
 # My_Cube(简体中文)
-### 这是一个解魔方的程序, 是用C++写的，但是并没有实现图形化界面, 并且借鉴了一下一个非常好的项目:https://github.com/miskcoo/rubik-cube
-### 教程请看:
-### https://blog.csdn.net/weixin_46645613/article/details/117479516
-### https://blog.csdn.net/weixin_46645613/article/details/119207969
-### https://blog.csdn.net/weixin_46645613/article/details/119208081
+这是一个解魔方的程序, 是用C++写的，但是并没有实现图形化界面, 并且借鉴了一下一个非常好的项目:https://github.com/miskcoo/rubik-cube
+教程请看:
+https://blog.csdn.net/weixin_46645613/article/details/117479516
+https://blog.csdn.net/weixin_46645613/article/details/119207969
+https://blog.csdn.net/weixin_46645613/article/details/119208081
 ## **程序需要**
 
 - C++
@@ -31,11 +31,12 @@ $ ./example
 
 ---
 # My_Cube(English)
-### This is a program which is used for solving rubik's cube,  and writen by C++. But here doesn't have a GUI. However, I borrowed from a nice project:https://github.com/miskcoo/rubik-cube.
-### You can get a course from there: 
-### https://blog.csdn.net/weixin_46645613/article/details/117479516
-### https://blog.csdn.net/weixin_46645613/article/details/119207969
-### https://blog.csdn.net/weixin_46645613/article/details/119208081
+### Sorry, i'm not good at English.
+This is a program which is used for solving rubik's cube,  and writen by C++. But here doesn't have a GUI. However, I borrowed from a nice project:https://github.com/miskcoo/rubik-cube.
+You can get a course from there: 
+https://blog.csdn.net/weixin_46645613/article/details/117479516
+https://blog.csdn.net/weixin_46645613/article/details/119207969
+https://blog.csdn.net/weixin_46645613/article/details/119208081
 
 ## **Requirement**
 - C++
