@@ -1,9 +1,12 @@
 # My_Cube(简体中文)
 这是一个解魔方的程序, 是用C++写的，但是并没有实现图形化界面, 并且借鉴了一下一个非常好的项目:https://github.com/miskcoo/rubik-cube
-教程请看:
+教程请看(简体中文）:
 #### https://blog.csdn.net/weixin_46645613/article/details/117479516
 #### https://blog.csdn.net/weixin_46645613/article/details/119207969
 #### https://blog.csdn.net/weixin_46645613/article/details/119208081
+如果你想看英文教程, 请移步到这:
+#### http://kociemba.org/cube.htm
+#### http://www.cube20.org
 ## **程序需要**
 
 - C++
@@ -41,11 +44,13 @@ example.exe
 # My_Cube(English)
 #### Sorry, I'm not good at English, so there may be some grammatical errors.
 This is a program which is used for solving rubik's cube,  and writen by C++. But here doesn't have a GUI. However, I borrowed from a nice project:https://github.com/miskcoo/rubik-cube.
-You can get a course from there: 
+You can get a course from there(Chinese): 
 #### https://blog.csdn.net/weixin_46645613/article/details/117479516
 #### https://blog.csdn.net/weixin_46645613/article/details/119207969
 #### https://blog.csdn.net/weixin_46645613/article/details/119208081
-
+If you want the Engliss courses, please go there:
+#### http://kociemba.org/cube.htm
+#### http://www.cube20.org
 ## **Requirement**
 - C++
 ## **Makefile-Usage**
