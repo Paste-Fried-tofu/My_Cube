@@ -47,7 +47,7 @@ int main(){
     move_vct moves;
 
     /* 通过文件获取魔方打乱方式 */
-    //moves =  rubik_cube::get_move_steps("example_files/example_disrupted_steps.txt");
+    //moves =  rubik_cube::get_move_steps("example_files/example_disarrange_steps.txt");
 
 
     /* 随机打乱魔方 */
@@ -60,7 +60,7 @@ int main(){
     }
 
     /* 保存魔方打乱方式 */
-    // save_moves(moves, "example_files/example_disrupted_steps.txt");
+    // save_moves(moves, "example_files/example_disarrange_steps.txt");
     
     for(size_t i=0; i<moves.size(); i++){
         std::cout << move_table_b.find(moves[i])->second << " " ;
