@@ -8,6 +8,7 @@
 #include <fstream>
 #include <iostream>
 
+
 namespace rubik_cube{
 
     typedef std::pair<face_t, int> move_step_t;

@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <iostream>
 #include <random>
+#include <ctime>
 
 namespace rubik_cube{
 

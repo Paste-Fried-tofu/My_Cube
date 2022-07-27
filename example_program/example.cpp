@@ -5,7 +5,6 @@
 #include <iostream>
 #include <cstdio>
 #include <fstream>
-#include <ctime>
 #include <string>
 
 using namespace rubik_cube;
@@ -62,7 +61,7 @@ int main(){
 
     putchar('\n');
 
-    printf("Steps: %ld\n", ans.size());
+    printf("Steps: %llu\n", ans.size());
     for(auto x:ans){
         std::cout << move_table_b.find(x)->second << ' ';
         a.rotate(x.first, x.second);
