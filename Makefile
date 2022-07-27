@@ -2,7 +2,7 @@ CXX = g++
 INCLUDES = -Iinclude
 SRC = src/Cube.cpp \
 		src/get_move.cpp \
-		src/solver.cpp
+		src/kociemba.cpp
 		
 LFLAGS = -pthread
 CFLAGS = -Wall -std=c++11 -g -pipe -DDEBUG
