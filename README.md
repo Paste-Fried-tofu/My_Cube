@@ -12,15 +12,15 @@
 - C++
 
 ## **Makefile文件用法**
--Linux
+- Linux（命令行）
 
 ```
-$ cd path/cube
+$ cd path/My_Cube
 $ make
 ```
--Windows(需要事先安装MinGW, 因为该程序是基于gcc编写的, MSV的编译器可能会报一堆错)
+- Windows(需要事先安装MinGW, 因为该程序是基于gcc编写的, MSV的编译器可能会报一堆错)
 ```
-cd path/cube
+cd path/My_Cube
 mingw32-make
 ```
 ## **程序使用方法**
@@ -54,16 +54,22 @@ If you want the Engliss courses, please go there:
 ## **Requirement**
 - C++
 ## **Makefile-Usage**
+- Linux (in command)
 ```
-$ cd path/cube
+$ cd path/My_Cube
 $ make
+```
+- Windows(be sure your compurter has installed the MinGW, because this program is based on gcc, the compiler of MSV may send errors)
+```
+cd path/My_Cube
+mingw32-make
 ```
 ## **Program-Usage**
 - In Linux, you can run command make, the run example.
 ```
 $ ./example
 ```
-- The same as Windows(be sure your compurter has installed the MinGW, because this program is based on gcc, the compiler of MSV may send errors)
+- The same as Windows
 ```
 example.exe
 ```
