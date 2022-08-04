@@ -5,20 +5,24 @@
 #include <random>
 #include <ctime>
 
-namespace rubik_cube{
+namespace rubik_cube
+{
 
-    move_vct get_move_steps(std::string filename){
+    move_vct get_move_steps(std::string filename)
+    {
         // init_move_table();
         move_vct move;
         std::ifstream in(filename, std::ios::in); // every step should be splited by ' '
-        if(in.fail()){
+        if (in.fail())
+        {
             printf("error: Can't open %s. Please check your path and file!\n", filename.c_str());
             return move;
         }
         std::string step_str;
-        
+
         move_step_t step;
-        while(getline(in, step_str, ' ')){
+        while (getline(in, step_str, ' '))
+        {
             // std::cout << step_str << ' ';
 
             step = std::make_pair(move_table_f.find(step_str)->second.first, move_table_f.find(step_str)->second.second);
@@ -36,19 +40,23 @@ namespace rubik_cube{
         return move;
     }
 
-    void standardization(move_vct& moves){
-        for(auto& x:moves){
-            x.second = (x.second%4+4)&3;
+    void standardization(move_vct &moves)
+    {
+        for (auto &x : moves)
+        {
+            x.second = (x.second % 4 + 4) & 3;
         }
     }
 
-
-    void save_moves(move_vct& moves, std::string filename){
-    std::ofstream out(filename, std::ios::out);
-    std::string op_str;
-    for(size_t i=0; i<moves.size(); ++i){
-        op_str = move_table_b.find(moves[i])->second;
-        for(size_t j=0; j<op_str.length(); ++j){
+    void save_moves(move_vct &moves, std::string filename)
+    {
+        std::ofstream out(filename, std::ios::out);
+        std::string op_str;
+        for (size_t i = 0; i < moves.size(); ++i)
+        {
+            op_str = move_table_b.find(moves[i])->second;
+            for (size_t j = 0; j < op_str.length(); ++j)
+            {
                 out << op_str[j];
             }
             out << ' ';
@@ -56,13 +64,14 @@ namespace rubik_cube{
         out.close();
     }
 
-
-    move_vct get_random_moves(int times){
+    move_vct get_random_moves(int times)
+    {
         std::uniform_int_distribution<unsigned> dist1{0, 5};
         std::uniform_int_distribution<unsigned> dist2{1, 3};
         std::default_random_engine e((unsigned int)time(nullptr));
         move_vct moves;
-        for(int i=0; i<times; i++){
+        for (int i = 0; i < times; i++)
+        {
             moves.push_back({face_t(dist1(e)), dist2(e)});
         }
         return moves;
